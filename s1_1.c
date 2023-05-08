@@ -30,6 +30,7 @@ main(int argc, char **argv)
         exit(EXIT_FAILURE);
     }
 
+    // TODO: Add cases when last block contains 1 or 2 characters
     char *hex_string = argv[1];
     char base_64_encoded[strlen(hex_string)];
 
