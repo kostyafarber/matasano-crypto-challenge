@@ -1,8 +1,5 @@
 #include "string_to_hex.h"
 
-#define BLOCK 32
-char hex_buf[BLOCK];
-
 struct key_pair {
     char *s;
     char *k;
@@ -53,6 +50,7 @@ main(int argc, char **argv)
     char *string = argv[1];
     char *key = argv[2];
     size_t str_len = strlen(argv[1]);
+    
     char cipher[str_len];
     printf("%s\n", string);
     printf("%s\n", key);

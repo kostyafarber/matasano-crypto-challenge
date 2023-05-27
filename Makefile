@@ -1,3 +1,5 @@
+s1_3: s1_3.c 
+	gcc s1_3.c string_to_hex.c -g -o s1_3.o
 
 s1_2: s1_2.c 
 	gcc s1_2.c string_to_hex.c -g -o s1_2.o
