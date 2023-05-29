@@ -6,6 +6,7 @@ create_hex_array(char *encrypted, int i)
 {
     char *hex;
     hex = malloc(3);
+    strncpy(hex, &encrypted[i], 2);
     hex[0] = encrypted[i];
     hex[1] = encrypted[i + 1]; 
     hex[2] = '\0';

@@ -6,7 +6,6 @@
 *    decoded = 49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d
 *    encoded = SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t
 *  
-* 
 */
 
 #include "string_to_hex.h"
@@ -27,6 +26,7 @@ main(int argc, char **argv)
         fprintf(stderr, "usage: %s str\n", argv[0]);
         exit(EXIT_FAILURE);
     }
+
 
     // TODO: Add cases when last block contains 1 or 2 characters
     char *string = argv[1];

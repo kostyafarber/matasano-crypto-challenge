@@ -1,4 +1,4 @@
-#include "string_to_hex.h"
+#include "helpers.h"
 
 void string_to_hex(char *input_str, char *output_buf) {
     int j = 0;

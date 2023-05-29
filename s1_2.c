@@ -45,8 +45,6 @@ main(int argc, char **argv)
         exit(EXIT_FAILURE);
     }
 
-    
-    struct key_pair kp = init_key_pair();
     char *string = argv[1];
     char *key = argv[2];
     size_t str_len = strlen(argv[1]);
@@ -55,6 +53,7 @@ main(int argc, char **argv)
     printf("%s\n", string);
     printf("%s\n", key);
 
+    struct key_pair kp = init_key_pair();
     for (int i = 0; i < str_len; i++) {
 
         create_key_pair_array(string, key, &kp);
