@@ -10,3 +10,9 @@ These are the problem sets, from the folks at [cryptopals](https://cryptopals.co
 
 I'll try to post stuff over at <a>https://kostyafarber.github.io/blog/</a> with explanations on my process.
 </p>
+
+## Build
+
+```shell
+$ make
+```
