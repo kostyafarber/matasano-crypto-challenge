@@ -1,4 +1,4 @@
-#include "string_to_hex.h"
+#include "helpers.h"
 #include <ctype.h>
 
 char *
@@ -13,6 +13,7 @@ create_hex_array(char *encrypted, int i)
 
     return hex;
 }
+
 
 int
 main(int argc, char **argv)

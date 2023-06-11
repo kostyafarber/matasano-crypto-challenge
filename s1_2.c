@@ -1,4 +1,4 @@
-#include "string_to_hex.h"
+#include "helpers.h"
 
 struct key_pair {
     char *s;

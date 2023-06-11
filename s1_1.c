@@ -8,7 +8,7 @@
 *  
 */
 
-#include "string_to_hex.h"
+#include "helpers.h"
 
 #define BUF_SIZE 6
 char hex_buf[BUF_SIZE];

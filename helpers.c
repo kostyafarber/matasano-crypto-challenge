@@ -21,5 +21,5 @@ void string_to_hex(char *input_str, char *output_buf) {
         output_buf += 2;
         input_str++;
     }
-    output_buf[++j] = '\0';
+    output_buf[j] = '\0';
 }
